@@ -1,13 +1,5 @@
-## Laravel 4.x
+## paste.laravel.fr
 
-### A Framework For Web Artisans
+### Paste Bucket de Laravel France
 
-[Official Documentation](http://four.laravel.com) (Under Active Development)
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Paste bucket de Laravel France, créé avec Laravel 4 & EmberJS
