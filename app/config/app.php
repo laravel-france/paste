@@ -101,6 +101,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		
 		'Way\Generators\GeneratorsServiceProvider',
+		'Way\Console\GuardLaravelServiceProvider',
 
 	),
 
