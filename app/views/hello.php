@@ -5,6 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="/css/styles.min.css">
 </head>
 <body>
-<script src="http://rawgithub.com/ajaxorg/ace-builds/master/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://raw.github.com/ajaxorg/ace-builds/master/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
