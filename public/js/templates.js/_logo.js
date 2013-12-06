@@ -1,0 +1,1 @@
+Ember.TEMPLATES['_logo'] = Ember.Handlebars.compile('<h1>\n    <a class=\"brand\" href=\"http://laravel.fr/\">\n    	<img src=\"http://laravel.fr/img/laravel_logo.png\" style=\"max-width:13%\" alt=\"logo\">                    Laravel France\n	</a>\n</h1>');

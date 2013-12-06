@@ -1,0 +1,1 @@
+Ember.TEMPLATES['application'] = Ember.Handlebars.compile('{{ outlet }}');
