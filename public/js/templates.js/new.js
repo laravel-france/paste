@@ -1,1 +1,0 @@
-Ember.TEMPLATES['new'] = Ember.Handlebars.compile('<div id=\"editor\"></div>\n	{{partial \"logo\"}}\n	<ul>\n		<li><a {{action \'save\' content}}>Enregistrer</a></li>\n		<li><a {{action \'cancel\'}}>Annuler</a></li>\n	</ul>');

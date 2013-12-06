@@ -1,1 +1,0 @@
-Ember.TEMPLATES['show'] = Ember.Handlebars.compile('<div id=\"editor\">{{unbound model.content}}</div>\n	{{partial \"logo\"}}\n	<ul>\n		<li>{{#linkTo \'new\'}}Nouveau{{/linkTo}}</li>\n		<li>{{#linkTo \'fork\' content}}Dupliquer{{/linkTo}}</li>\n	</ul>');

@@ -1,1 +1,0 @@
-Ember.TEMPLATES['fork'] = Ember.Handlebars.compile('<div id=\"editor\">{{unbound model.content}}</div>\n{{partial \"logo\"}}\n<ul>\n	<li><a {{action \'save\' content}}>Enregistrer</a></li>\n	<li><a {{action \'cancel\' original}}>Annuler</a></li>\n</ul>');
