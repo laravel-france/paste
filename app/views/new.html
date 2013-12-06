@@ -1,0 +1,7 @@
+<header class="header">
+    <button id="submitNewCode" ng-disabled="newCodeForm.$invalid || saving" ng-click="save(newCodeForm, paste)">Enregistrer</button>
+</header>
+
+<form name="newCodeForm">
+    <textarea ng-model="paste.code" name="code" id="newCode" required="require" ng-readonly="saving"></textarea>
+</form>
