@@ -8,8 +8,16 @@ angular.module('pasteApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/new', {
-        templateUrl: 'views/new.html',
+        templateUrl: 'views/form.html',
         controller: 'NewCtrl'
+      })
+      .when('/show/:uniqid', {
+        templateUrl: 'views/show.html',
+        controller: 'ShowCtrl'
+      })
+      .when('/fork/:uniqid', {
+        templateUrl: 'views/form.html',
+        controller: 'ForkCtrl'
       })
       .otherwise({
         redirectTo: '/new'

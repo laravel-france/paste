@@ -1,9 +1,10 @@
 'use strict';
 
 angular.module('pasteApp.Api', ['ngResource'])
-   .factory("Paste", function ($resource) {
+   .factory("Paste", function ($resource, $http) {
+        $http.defaults.useXDomain = true;
        return $resource(
-           "http://laravel.fr/api/paste/:id",
+           "http://laraveldev.fr/api/paste/:id",
            {id: "@id" },
            { "update": {method:"PUT"} }
       );

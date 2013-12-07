@@ -1,7 +1,15 @@
 'use strict';
 
-angular.module('pasteApp').controller('NewCtrl', ['$scope', '$location', 'Paste', function ($scope, $location, Paste) {
+angular.module('pasteApp').controller('ForkCtrl', ['$scope', '$routeParams', '$location', 'Paste', function ($scope, $routeParams, $location, Paste) {
+
     $scope.paste = new Paste();
+    Paste.get({id: $routeParams.uniqid}, function (objet) {
+        $scope.paste.code = objet.code;
+        console.log($scope.paste);
+    }, function(error) {
+        alert('Error dude');
+    });
+
     $scope.saving = false;
 
     $scope.save = function (form, paste) {
